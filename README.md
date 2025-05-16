@@ -1,5 +1,5 @@
-# ⠀⠀⠀⠀⠀⠀⠀⠀⠀      Trabajo Práctico Nro. 1
-## ⠀⠀⠀⠀⠀⠀      Algoritmos y Estructuras de Datos
+# ⠀⠀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀Trabajo Práctico Nro. 1
+## ⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀Algoritmos y Estructuras de Datos
 ## - Curso: K1101
 ## - Profesor: Ing. Diego Juan
 ## - Año 2025
