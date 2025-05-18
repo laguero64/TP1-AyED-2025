@@ -4,6 +4,7 @@
 #include <iostream>
 
 int generarID() {
+    return 0;
 }
 
 #endif
