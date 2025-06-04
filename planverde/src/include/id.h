@@ -4,6 +4,9 @@
 #include <iostream>
 
 int generarID() {
+    /*
+    srand(time(0));
+    return id; */
     return 0;
 }
 
