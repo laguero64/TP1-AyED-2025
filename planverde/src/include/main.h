@@ -63,9 +63,6 @@ void cargarDatoIndividual(Huerta &huertaCargada, string parametro)
         case 'O':
             huertaCargada.tipoCultivo = O;
             break;
-        default:
-            cout << "Opción inválida, usando valor por defecto (Hortalizas)." << endl;
-            huertaCargada.tipoCultivo = H;
         }
     }
     else if (parametro == "superficieCultivada")
@@ -102,8 +99,48 @@ Huerta cargarDatos()
     return huertaCargada;
 }
 
-void mostrarDatos()
+int totalHuertas(listaHuertas)
 {
+}
+
+void mostrarProduccionMensual(listaHuertas)
+{
+    for (int i = 0; i < totalHuertas; i++)
+    {
+        cout << "Huerta " << i << ": " << listaHuertas[i].produccionMensual << endl;
+    }
+}
+
+Cultivo cultivoMasFrecuente(listaHuertas)
+{
+}
+
+float porcentajeUsoFertilizantes(listaHuertas)
+{
+}
+
+char cultivoMasFrecuente(listaHuertas)
+{
+}
+
+float superficiePromedioHuerta(listaHuertas)
+{
+}
+
+void mostrarHuertasPorBarrio(listaHuertas)
+{
+}
+
+void mostrarDatos(listaHuertas) // Se debe ingresar un array con las huertas existentes
+{
+    cout << "Huertas registradas: " << totalHuertas(listaHuertas) << endl;
+    cout << "Producción mensual por huerta (en kg):" << endl;
+    mostrarProduccionMensual(listaHuertas);
+    cout << "Porcentaje de huertas que utilizan fertilizante: " << porcentajeUsoFertilizante(listaHuertas) << endl;
+    cout << "Tipo de cultivo mas frecuente: " << cultivoMasFrecuente(listaHuertas) << endl;
+    cout << "Superficie promedio por huerta: " << superficiePromedioHuerta(listaHuertas) << endl;
+    cout << "Huertas por barrio: " << endl;
+    mostrarHuertasPorBarrio(listaHuertas);
 }
 
 #endif
